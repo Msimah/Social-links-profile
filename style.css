@@ -21,17 +21,21 @@
   overflow: hidden;
 }
 .card__image img{
-  width: 100px;
-  height: 100px;
+  width: 70px;
+  height: 70px;
   display: block;
   border-radius: 50%;
   margin: 1rem auto;
+  position: relative;
+  top: 15px;
+  
 }
 .card__content{
 display : flex;
   flex-direction : column;
   align-items : center;
   padding : 1rem;
+  margin : 1rem;
 }
 .card__name{
   font-size : 1.5rem;
@@ -67,7 +71,7 @@ a{
   padding : 0.9rem 1rem;
   background-color: hsl(0, 0%, 20%);
   margin : 0.5rem;
-  width : 80%;
+  width : 100%;
   color : #fff;
   text-decoration: none;
   cursor : pointer;
